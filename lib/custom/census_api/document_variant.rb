@@ -1,0 +1,2 @@
+class CensusApi::DocumentVariant
+end
