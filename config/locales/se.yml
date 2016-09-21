@@ -2,220 +2,220 @@
 en:
   account:
     show:
-      change_credentials_link: Change my credentials
-      email_on_comment_label: Notify me by email when someone comments on my proposals or debates
-      email_on_comment_reply_label: Notify me by email when someone replies to my comments
-      erase_account_link: Erase my account
-      finish_verification: Complete verification
-      notifications: Notifications
-      organization_name_label: Name of organisation
-      organization_responsible_name_placeholder: Representative of the organisation/collective
-      personal: Personal details
-      phone_number_label: Phone number
-      public_activity_label: Keep my list of activities public
-      save_changes_submit: Save changes
-      subscription_to_website_newsletter_label: Receive by email website relevant information
-      email_on_direct_message_label: Receive emails about direct messages
-      email_digest_label: Receive a summary of proposal notifications
-      official_position_badge_label: Show official position badge
-      title: My account
-      user_permission_debates: Participate on debates
-      user_permission_info: With your account you can...
-      user_permission_proposal: Create new proposals
-      user_permission_support_proposal: Support proposals
-      user_permission_title: Participation
-      user_permission_verify: To perform all the actions verify your account.
-      user_permission_verify_info: "* Only for users on Census."
-      user_permission_votes: Participate on final voting
-      username_label: Username
-      verified_account: Account verified
-      verify_my_account: Verify my account
+      change_credentials_link: Ändra min inloggningsinformation
+      email_on_comment_label: Skicka mig ett email när någon kommenterar på mina förslag eller debatter
+      email_on_comment_reply_label: Skicka mig ett email när någon svarar mina kommentarer
+      erase_account_link: Radera mitt konto
+      finish_verification: Verifiera mig
+      notifications: Upplysningar
+      organization_name_label: Namn av organisation
+      organization_responsible_name_placeholder: Representant från organisationen/kollektivet
+      personal: Personliga detaljer
+      phone_number_label: Telefon nummer
+      public_activity_label: Ha min lista av aktiviteter allmänt
+      save_changes_submit: Spara ändringar
+      subscription_to_website_newsletter_label: Få email om information angående webbsidan
+      email_on_direct_message_label: Få email om privata meddelanden
+      email_digest_label: Få en sumering av upplysningar om förslag
+      official_position_badge_label: Visa officiel identifikation
+      title: Mitt konto
+      user_permission_debates: Bidra till debatter
+      user_permission_info: Med ditt konto kan du...
+      user_permission_proposal: Starta nya förslag
+      user_permission_support_proposal: Stödja förslag
+      user_permission_title: Bidra
+      user_permission_verify: För att använda alla funktioner, verifiera ditt konto.
+      user_permission_verify_info: "* Bara för användare av Census."
+      user_permission_votes: Bidra i slutlig röstning
+      username_label: Användarnamn
+      verified_account: Konto verifierat
+      verify_my_account: Verifiera mitt konto
   application:
-    close: Close
-    menu: Menu
+    close: Stäng
+    menu: Meny
   comments:
     comment:
-      admin: Administrator
-      author: Author
-      deleted: This comment has been deleted
-      moderator: Moderator
+      admin: Administratör
+      author: Författaren
+      deleted: Den här kommentaren har raderats
+      moderator: Diskussionsledare
       responses:
-        one: 1 response
-        other: "%{count} responses"
-        zero: No responses
-      user_deleted: User deleted
+        one: 1 svar
+        other: "%{count} svar"
+        zero: Inga svar
+      user_deleted: Användare raderad
       votes:
-        one: 1 vote
-        other: "%{count} votes"
-        zero: No votes
+        one: 1 röst
+        other: "%{count} röster"
+        zero: Inga röster
     form:
-      comment_as_admin: Comment as admin
-      comment_as_moderator: Comment as moderator
-      leave_comment: Leave your comment
+      comment_as_admin: Kommentera som administratör
+      comment_as_moderator: Kommentera som diskussionsledare
+      leave_comment: Lämna din kommentar
     orders:
-      most_voted: Most voted
-      newest: Newest first
-      oldest: Oldest first
-    select_order: Sort by
+      most_voted: Mest röster
+      newest: Nyast först
+      oldest: Gamlast först
+    select_order: Sortera med
     show:
-      return_to_commentable: 'Go back to '
+      return_to_commentable: 'Gå tillbaka till '
   comments_helper:
-    comment_button: Publish comment
-    comment_link: Comment
-    reply_button: Publish reply
-    reply_link: Reply
+    comment_button: Lämna kommentar
+    comment_link: Kommentera
+    reply_button: Lämna svar
+    reply_link: Svara
   debates:
     create:
       form:
-        submit_button: Start a debate
+        submit_button: Starta en debatt
     debate:
       comments:
-        one: 1 comment
-        other: "%{count} comments"
-        zero: No comments
-      debate: Debate
+        one: 1 kommentar
+        other: "%{count} kommentarer"
+        zero: Inga kommentarer
+      debate: Debatt
       votes:
-        one: 1 vote
-        other: "%{count} votes"
-        zero: No votes
+        one: 1 röst
+        other: "%{count} röster"
+        zero: Inga röster
     edit:
-      editing: Edit debate
+      editing: Ändra debatt
       form:
-        submit_button: Save changes
-      show_link: View debate
+        submit_button: Spara ändringar
+      show_link: Visa debatt
     form:
-      debate_text: Initial debate text
-      debate_title: Debate title
-      tags_instructions: Tag this debate.
-      tags_label: Topics
-      tags_placeholder: "Enter the tags you would like to use, separated by commas (',')"
+      debate_text: Introduktiontext till debatten
+      debate_title: Debatt titel
+      tags_instructions: Tagga den här debatten.
+      tags_label: Ämnen
+      tags_placeholder: "Lägg till taggar som du skulle vilja använda, separerade med ett kommatecken (',')"
     index:
-      featured_debates: Featured
+      featured_debates: Utvalda
       filter_topic:
-        one: " with topic '%{topic}'"
-        other: " with topic '%{topic}'"
+        one: " med ämne '%{topic}'"
+        other: " med ämne '%{topic}'"
       orders:
-        confidence_score: highest rated
-        created_at: newest
-        hot_score: most active
-        most_commented: most commented
-        relevance: relevance
+        confidence_score: högst rankad
+        created_at: nyast
+        hot_score: mest aktiv
+        most_commented: mest kommenterad
+        relevance: relevans
       search_form:
-        button: Search
-        placeholder: Search debates...
-        title: Search
+        button: Sök
+        placeholder: Sök debatter...
+        title: Sök
       search_results:
-        one: " containing the term '%{search_term}'"
-        other: " containing the term '%{search_term}'"
-      select_order: Order by
-      start_debate: Start a debate
-      title: Debates
+        one: " med nyckelordet '%{search_term}'"
+        other: " med nyckelordet '%{search_term}'"
+      select_order: Sortera med
+      start_debate: Starta debatten
+      title: Debatter
     new:
       form:
-        submit_button: Start a debate
-      info: If you want to make a proposal, this is the wrong section, enter %{info_link}.
-      info_link: create new proposal
-      more_info: More information
-      recommendation_four: Enjoy this space and the voices that fill it. It belongs to you too.
-      recommendation_one: Do not use capital letters for the debate title or for whole sentences. On the internet, this is considered shouting. And nobody likes being shouted at.
-      recommendation_three: Ruthless criticism is very welcome. This is a space for reflection. But we recommend that you stick to elegance and intelligence. The world is a better place with these virtues in it.
-      recommendation_two: Any debate or comment suggesting illegal action will be deleted, as well as those intending to sabotage the debate spaces. Anything else is allowed.
-      recommendations_title: Recommendations for creating a debate
-      start_new: Start a debate
+        submit_button: Starta debatten
+      info: Om du vill ge ett förslag, så är det här fel sida. Istället gå till %{info_link}.
+      info_link: skapa nytt förslag
+      more_info: Mer information
+      recommendation_four: Dra nytta av det här utrymmet och rösterna som fyller det. Det tillhör dig.
+      recommendation_one: Använd inte stora bokstäver i debatt titeln eller för hela meningar. På internet, ses det som att man skriker. Och ingen tycker om när någon skriker åt en.
+      recommendation_three: Hård kritik är väldigt välkommen. Det här är ett utrymme för reflektion. Vi rekommenderar att du håller dig till elegans och intelligens. Världen är en bättre plats när dem här värderingarna hålls.
+      recommendation_two: En debatt eller kommentar som föreslår en olaglig akt kommer att raderas, och det samma gäller för de som saboterar utrymmet för debatt. Annars är vadsomhelst tillåtet.
+      recommendations_title: Rekommenderingar för att starta en debatt
+      start_new: Starta en debatt
     show:
-      author_deleted: User deleted
+      author_deleted: Användare raderad
       comments:
-        one: 1 comment
-        other: "%{count} comments"
-        zero: No comments
-      comments_title: Comments
-      edit_debate_link: Edit
-      flag: This debate has been flagged as inappropriate by several users.
-      login_to_comment: You must %{signin} or %{signup} to leave a comment.
-      share: Share
+        one: 1 kommentar
+        other: "%{count} kommentarer"
+        zero: Inga kommentarer
+      comments_title: Kommentarer
+      edit_debate_link: Ändra
+      flag: Den här debatten har markerats som oacceptabel av flera användare.
+      login_to_comment: Du måste %{signin} eller %{signup} för att lämna en kommentar.
+      share: Dela
     update:
       form:
-        submit_button: Save changes
+        submit_button: Spara ändringar
   errors:
     messages:
-      user_not_found: User not found
+      user_not_found: Användare kan inte hittas
   form:
-    accept_terms: I agree to the %{policy} and the %{conditions}
-    accept_terms_title: I agree to the Privacy Policy and the Terms and conditions of use
-    conditions: Terms and conditions of use
-    debate: Debate
-    direct_message: private message
-    error: error
-    errors: errors
-    not_saved: 'prevented this %{resource} from being saved:'
-    policy: Privacy Policy
-    proposal: Proposal
-    proposal_notification: "Notification"
-    spending_proposal: Spending proposal
-    user: Account
-    verification/sms: phone
+    accept_terms: Jag håller med %{policy} och %{conditions}
+    accept_terms_title: Jag håller med integritetspolicy och villkor för användare
+    conditions: Villkör för användare
+    debate: Debatt
+    direct_message: Privat meddelande
+    error: fel
+    errors: fel
+    not_saved: 'motverkade %{resource} från att ha sparats:'
+    policy: integritetspolicy
+    proposal: förslag
+    proposal_notification: "Upplysning"
+    spending_proposal: Budgetförslag
+    user: Konto
+    verification/sms: telefon
   geozones:
-    none: All city
-    all: All scopes
+    none: Alla städer
+    all: All omfattning
   layouts:
     application:
       chrome: Google Chrome
       firefox: Firefox
-      ie: We have detected that you are browsing with Internet Explorer. For an enhanced experience, we recommend using %{firefox} or %{chrome}.
-      ie_title: This website is not optimised for your browser
+      ie: Vi har märkt att du söker med Internet Explorer. För en bättre upplevelse, rekommenderar vi att ni använder %{firefox} eller %{chrome}.
+      ie_title: Den här webbsidan är inte optimerad för din webbläsare
     footer:
-      accessibility: Accessibility
-      conditions: Terms and conditions of use
-      consul: Consul application
+      accessibility: Tillgänglighet
+      conditions: Villkor för användare
+      consul: Consul anmälning
       consul_url: https://github.com/consul/consul
-      contact_us: For technical assistance enters
+      contact_us: För teknisk support gå till
       copyright: Consul, %{year}
-      description: This portal uses the %{consul} which is %{open_source}.
-      faq: technical assistance
-      more_info: More information
-      open_data_text: Every detail about the City Council is yours to access.
-      open_data_title: Open data
-      open_source: open-source software
+      description: Den här portalen använder %{consul} vilket är %{open_source}.
+      faq: teknisk support
+      more_info: Mer information
+      open_data_text: Varje detalj om stadsrådet är tillgängligt för dig.
+      open_data_title: Öppen data
+      open_source: öppen källkod mjukvara
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
-      participation_text: Decide how to shape the city you want to live in.
-      participation_title: Participation
-      privacy: Privacy Policy
-      transparency_text: Find out anything about the city.
-      transparency_title: Transparency
+      participation_text: Bestäm hur du bidrar till staden du lever i.
+      participation_title: Bidrag
+      privacy: integritetspolicy
+      transparency_text: Hitta vadsomhelst om din stad.
+      transparency_title: Öppenhet 
       transparency_url: https://transparency.consul
     header:
       administration: Administration
-      debates: Debates
-      external_link_blog: Blog
-      external_link_opendata: Open data
-      external_link_transparency: Transparency
+      debates: Debatter
+      external_link_blog: Blogg
+      external_link_opendata: Öppen data
+      external_link_transparency: Öppenhet
       external_link_transparency_url: https://transparency.consul
-      locale: 'Language:'
+      locale: 'Språk:'
       logo: Consul
-      management: Management
-      moderation: Moderation
-      valuation: Valuation
-      more_information: More information
-      my_account_link: My account
-      my_activity_link: My activity
-      notifications: Notifications
+      management: Förvaltning
+      moderation: Diskussionsledning
+      valuation: Valuering
+      more_information: Mer information
+      my_account_link: Mitt konto
+      my_activity_link: Min aktivitet
+      notifications: Upplysningar
       new_notifications:
-        one: You have a new notification
-        other: You have %{count} new notifications
-      no_notifications: You don't have new notifications
-      open: open
-      open_city_slogan_html: There are cities that are governed directly by their inhabitants, who <b>discuss</b> the topics they are concerned about, <b>propose</b> ideas to improve their lives and <b>decide</b> among themselves which ones will be carried out.
-      open_city_title: Love the city, and it will become a city you love.
-      open_data: Open data
-      open_gov: Open government
-      proposals: Proposals
-      proposal_ballot: Voting
-      see_all: See proposals
-      spending_proposals: Spending proposals
+        one: Du har en ny upplysning
+        other: Du har %{count} nya upplysningar
+      no_notifications: Du har inga nya upplysningar
+      open: öppen
+      open_city_slogan_html: Det finns städer som direkt engagerar sina invånare, angående <b>discuss</b> ämnena de bryr sig om, <b>propose</b> ideér för att förbättra sina liv <b>decide</b> mellan dem själva om vilka ska vidare.
+      open_city_title: Älska staden, och det blir en stad du älskar.
+      open_data: Öppen data
+      open_gov: Öppen regering
+      proposals: Förslag
+      proposal_ballot: Röstning
+      see_all: Se förslag
+      spending_proposals: Budgetförslag
   legislation:
     help:
-      alt: Select the text you want to comment and press the button with the pencil.
-      text: To comment this document you must %{sign_in} or %{sign_up}. Then select the text you want to comment and press the button with the pencil.
+      alt: Välj texten som du vill kommentera på och tryck knappen and press the button with the pencil.
+      text: För att kommentera på texten måste ni %{sign_in} eller %{sign_up}. Sen väljer ni you want to comment and press the button with the pencil.
       text_sign_in: login
       text_sign_up: sign up
       title: How I can comment this document?
